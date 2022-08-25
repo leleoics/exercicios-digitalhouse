@@ -15,6 +15,7 @@ header {
     font-weight: 400;
     line-height: 32px;
     color: #777777;
+    margin-left: 10px;
 }
 
 header span {
@@ -30,4 +31,26 @@ header span {
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
+}
+
+.hamburguer-menu {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+@media(min-width: 481px){
+    .hamburguer-menu{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
 }
