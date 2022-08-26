@@ -46,11 +46,55 @@ header span {
     display: none;
 }
 
-@media(min-width: 481px){
-    .hamburguer-menu{
+footer {
+    background: #333333;
+    ;
+}
+
+.map {
+    height: 163px;
+    width: 252px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rodape-info {
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.texto {
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #888888;
+}
+
+.contatos {
+    display: inline;
+}
+
+
+@media(min-width: 481px) {
+    .hamburguer-menu {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         display: block;
     }
 }
